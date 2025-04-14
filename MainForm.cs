@@ -16,5 +16,12 @@ namespace var6
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 mainForm = new Form1();
+            mainForm.Show();
+            this.Hide();
+        }
     }
 }
